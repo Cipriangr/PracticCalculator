@@ -1,0 +1,39 @@
+[
+  {
+    "repId": "1",
+    "repName": "Rep 1",
+    "labels": [
+      {
+        "labelId": "LABEL_ID_1",
+        "labelName": "LABEL_NAME_1",
+        "count": 2
+      },
+      {
+        "labelId": "LABEL_ID_2",
+        "labelName": "LABEL_NAME_2",
+        "count": 5
+      },
+      {
+        "labelId": "LABEL_ID_3",
+        "labelName": "LABEL_NAME_3",
+        "count": 1
+      }
+    ]
+  },
+  {
+    "repId": "2",
+    "repName": "Rep 2",
+    "labels": [
+      {
+        "labelId": "LABEL_ID_2",
+        "labelName": "LABEL_NAME_2",
+        "count": 1
+      },
+      {
+        "labelId": "LABEL_ID_1",
+        "labelName": "LABEL_NAME_1",
+        "count": 3
+      }
+    ]
+  }
+]

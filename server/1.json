@@ -1,0 +1,22 @@
+[
+  {
+    "dayName": "Mon",
+    "count": 100
+  },
+  {
+    "dayName": "Tue",
+    "count": 200
+  },
+  {
+    "dayName": "Wed",
+    "count": 50
+  },
+  {
+    "dayName": "Thu",
+    "count": 250
+  },
+  {
+    "dayName": "Fri",
+    "count": 75
+  }
+]

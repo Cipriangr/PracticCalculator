@@ -1,0 +1,22 @@
+<div class="calculations">
+  <table class="table">
+    <tr class="thead">
+      <td>Year</td>
+      <td>Investment Value</td>
+      <td>Interest (year)</td>
+      <td>Total Interest</td>
+      <td>Invested Capital</td>
+    </tr>
+    <tbody>
+      @for (item of items; track $index) {
+        <tr class="data">
+          <td>{{ item.year }}</td>
+          <td>{{ item.totalAmountInvested | currency }}</td>
+          <td>{{ item.interestYear | currency }}</td>
+          <td>{{ item.totalInterest | currency }}</td>
+          <td>{{ item.totalAmountInvested | currency }}</td>
+        </tr>
+      }
+    </tbody>
+  </table>
+</div>

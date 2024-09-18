@@ -1,0 +1,30 @@
+<div class="table">
+  <form #data="ngForm" (ngSubmit)="submitForm(data, $event)" novalidate>
+    <div class="data">
+      <div class="initial">
+        <label for="initial">Initial Investment</label>
+        <input type="number" name="initial" min="1" ngModel required>
+      </div>
+      <div class="annual">
+        <label for="annual">Annual Investment</label>
+        <input type="number" name="annual" min="1" ngModel required>
+      </div>
+      <div class="expected">
+        <label for="expected">Expected Return</label>
+        <input type="number" name="expected" min="1" ngModel required>
+      </div>
+      <div class="duration">
+        <label for="duration">Duration</label>
+        <input type="number" name="duration" min="1" max="20" ngModel required>
+      </div>
+    </div>
+    <div class="submit">
+      <button [disabled]="data.invalid" ng>Calculate</button>
+    </div>
+    @if(data.invalid) {
+      <span>
+        Complete all inputs
+      </span>
+    }
+  </form>
+</div>

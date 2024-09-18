@@ -1,0 +1,43 @@
+.table {
+  display: flex;
+  justify-content: center;
+  form {
+    background-color: cadetblue;
+    padding: 30px;
+    .data {
+      display: grid;
+      gap: 50px;
+      grid-template: 'first first'
+      'second second';
+      div {
+        display: flex;
+        flex-direction: column;
+      }
+      label {
+        margin-bottom: 5px;
+      }
+      input {
+        background-color: cadetblue;
+        border-color: white;
+        padding: 5px;
+        color: white;
+      }
+    }
+    .submit {
+      margin-top: 40px;
+      display: flex;
+      justify-content: center;
+      button {
+        font-size: 16px;
+        background-color: rgb(19, 173, 135);
+        color: white;
+        padding: 5px 10px;
+        border-color: white;
+        &:disabled {
+          color: white;
+          background-color: red;
+        }
+      }
+    }
+  }
+}
